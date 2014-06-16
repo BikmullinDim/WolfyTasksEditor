@@ -1,3 +1,8 @@
+.gradle
+/local.properties
+/.idea/workspace.xml
+.DS_Store
+
 # Built application files
 *.apk
 *.ap_
@@ -13,8 +18,12 @@ bin/
 gen/
 
 # Gradle files
-.gradle/
+gradle/
 build/
+gradlew
+gradlew.bat
+gradle.properties
+*.gradle
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -24,3 +33,6 @@ proguard/
 
 # Idea settings
 .idea/
+*.iml
+
+.gitignore
